@@ -1,0 +1,27 @@
+# Project-Specific Settings
+
+# This file stores configurations specific to this project.
+# It is intended to centralize project details like linked repositories,
+# build commands, container settings, etc., for use by ClineAGI.
+
+# projectName: "Your Project Name"
+# projectType: "General Development" # e.g., "Web Server", "Data Science", "CLI Tool"
+
+# versionControl:
+#   remoteRepositoryUrl: "" # URL of the project's primary remote Git repository
+#   defaultBranch: "" # e.g., "main", "develop"
+
+# containerization:
+#   enabled: false # Set to true if using containers
+#   technology: "Docker" # e.g., "Docker", "Podman"
+#   imageName: "" # Default image name
+#   dockerfilePath: "Dockerfile" # Path relative to project root
+#   defaultPorts: [] # e.g., ["8080:80", "5432:5432"]
+
+# buildCommands: # Common build/run/test scripts
+#   build: ""
+#   start: ""
+#   test: ""
+
+# projectSpecific: # Flexible section for any other project-specific settings
+#   # Add custom key-value pairs here
