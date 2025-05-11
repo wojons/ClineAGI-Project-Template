@@ -1,0 +1,11 @@
+# Command: Container Status
+
+**Objective:** Check the status of the dedicated container for the current project.
+
+**Project Name:** {{ project_name }}
+
+**Instructions:**
+1. Confirm the active project context is '{{ project_name }}'.
+2. Identify the expected container name for the active project (e.g., `clineagi-project-{{ project_name }}`).
+3. Use the container runtime operations workflow (`.clinerules/200_containers/200-03_container-runtime-operations.md`) to check the status of the container using `docker ps -a --filter name=clineagi-project-{{ project_name }}`.
+4. Present the container status output to the user.
